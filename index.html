@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kahed Ali – Portfolio BTS SIO SISR</title>
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--text:#1d2330;--muted:#5b6475;--accent:#1f5fbf;--soft:#e6eefb;--border:#dde3ec}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+nav{position:sticky;top:0;background:var(--card);border-bottom:1px solid var(--border);z-index:10}
+nav ul{list-style:none;margin:0 auto;padding:.6rem 1rem;display:flex;flex-wrap:wrap;gap:1.2rem;max-width:960px}
+nav a{color:var(--text);text-decoration:none;font-weight:600;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+section{max-width:960px;margin:0 auto;padding:3rem 1rem}
+h2{font-size:1.6rem;margin:0 0 1.2rem;border-left:5px solid var(--accent);padding-left:.7rem}
+h3{margin:.2rem 0 .4rem}
+.hero{text-align:center;padding:5rem 1rem 4rem}
+.hero h1{font-size:2.6rem;margin:0}
+.hero .title{font-size:1.3rem;color:var(--accent);font-weight:600;margin:.4rem 0}
+.hero .sub{color:var(--muted);margin:0 0 1.8rem}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:.7rem 1.3rem;border-radius:8px;text-decoration:none;font-weight:600;border:none;cursor:pointer;font-size:1rem}
+.btn:hover{opacity:.9}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.3rem 1.5rem;margin-bottom:1rem}
+.date{font-weight:700;color:var(--accent)}
+.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.5rem}
+.tag{background:var(--soft);color:var(--accent);padding:.25rem .7rem;border-radius:999px;font-size:.88rem;font-weight:600}
+.thumb{height:90px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:2.2rem;margin-bottom:.8rem;background:var(--soft)}
+.soon .thumb{background:#eceff3}
+.badge{display:inline-block;font-size:.8rem;font-weight:700;padding:.15rem .6rem;border-radius:6px;background:#eceff3;color:var(--muted)}
+.detail{border-left:5px solid var(--accent)}
+.contact-list{list-style:none;padding:0;margin:0}
+.contact-list li{margin:.4rem 0}
+form{display:grid;gap:.8rem}
+input,textarea{width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font:inherit}
+textarea{min-height:130px}
+footer{text-align:center;padding:2rem 1rem;color:var(--muted);font-size:.9rem}
+@media(max-width:600px){.hero h1{font-size:2rem}}
+</style>
+</head>
+<body>
+
+<nav><ul>
+<li><a href="#accueil">Accueil</a></li>
+<li><a href="#profil">Profil</a></li>
+<li><a href="#parcours">Parcours</a></li>
+<li><a href="#competences">Compétences</a></li>
+<li><a href="#realisations">Réalisations</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul></nav>
+
+<header class="hero" id="accueil">
+<h1>Kahed Ali</h1>
+<p class="title">Étudiant en informatique, systèmes et réseaux</p>
+<p class="sub">1re année BTS SIO option SISR – CNED</p>
+<a class="btn" href="CV_KAHED_ALI.pdf" target="_blank">Voir / télécharger mon CV (PDF)</a>
+</header>
+
+<section id="profil">
+<h2>Profil</h2>
+<div class="card">
+<p>Étudiant en première année de BTS SIO option SISR au CNED, je me forme au métier d'<strong>administrateur systèmes et réseaux</strong>. Après un baccalauréat STMG et une première année de BTS en présentiel, j'ai choisi l'enseignement à distance pour organiser moi-même mon apprentissage.</p>
+<p>Ce qui m'attire dans ce métier : comprendre comment fonctionne une infrastructure, la mettre en place et la sécuriser. La virtualisation est mon point fort : je l'utilise régulièrement pour monter des environnements de test.</p>
+<p><strong>Je recherche un stage de 4 à 5 semaines dans le domaine des systèmes et réseaux (option SISR), à réaliser entre mai et août 2027.</strong></p>
+</div>
+</section>
+
+<section id="parcours">
+<h2>Parcours de formation</h2>
+<div class="card">
+<p class="date">2026 – 2028 · en cours</p>
+<h3>BTS SIO (Services Informatiques aux Organisations), option SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</h3>
+<p class="muted">CNED – enseignement à distance</p>
+<p>Le BTS SIO forme des techniciens capables d'assurer le support, la gestion et l'évolution des services informatiques d'une organisation. L'option SISR porte sur l'installation, l'administration et la sécurisation des réseaux, des serveurs et des postes de travail.</p>
+</div>
+<div class="card">
+<p class="date">2025 – 2026</p>
+<h3>Première année de BTS SIO, option SISR</h3>
+<p class="muted">Lycée Monnet-Mermoz, Aurillac – réorientation vers l'enseignement à distance</p>
+</div>
+<div class="card">
+<p class="date">2024</p>
+<h3>Baccalauréat STMG (Sciences et Technologies du Management et de la Gestion), option Mercatique</h3>
+<p class="muted">Lycée Hector Berlioz, Vincennes</p>
+</div>
+</section>
+
+<section id="competences">
+<h2>Compétences techniques</h2>
+<p class="muted">Compétences abordées au cours de ma première année, en cours d'acquisition.</p>
+<div class="grid">
+<div class="card"><h3>Réseaux</h3><div class="tags"><span class="tag">Modèles OSI et TCP/IP</span><span class="tag">Adressage IPv4</span><span class="tag">Commutation et VLAN</span><span class="tag">Routage</span><span class="tag">Cisco Packet Tracer</span></div></div>
+<div class="card"><h3>Systèmes</h3><div class="tags"><span class="tag">Windows</span><span class="tag">Windows Server</span><span class="tag">Linux</span><span class="tag">Active Directory</span><span class="tag">DNS / DHCP</span></div></div>
+<div class="card"><h3>Virtualisation</h3><div class="tags"><span class="tag">VMware Workstation Pro</span><span class="tag">Machines virtuelles</span><span class="tag">Environnements de test</span></div></div>
+<div class="card"><h3>Support et parc</h3><div class="tags"><span class="tag">Gestion des incidents</span><span class="tag">Outil de ticketing</span><span class="tag">Inventaire du parc</span></div></div>
+<div class="card"><h3>Cybersécurité</h3><div class="tags"><span class="tag">Sécurité des postes et des comptes</span><span class="tag">Sauvegardes</span><span class="tag">RGPD / AIPD (outil PIA CNIL)</span></div></div>
+<div class="card"><h3>Outils</h3><div class="tags"><span class="tag">Visual Studio Code</span><span class="tag">Git / GitHub</span><span class="tag">Google Workspace</span><span class="tag">Pearltrees</span></div></div>
+</div>
+</section>
+
+<section id="realisations">
+<h2>Réalisations professionnelles</h2>
+<div class="grid">
+<div class="card">
+<div class="thumb">🌐</div>
+<span class="badge">Projet scolaire</span>
+<h3>Réseau local simulé</h3>
+<p class="muted">2025</p>
+<p>Conception et test d'un réseau local simulé sous Cisco Packet Tracer.</p>
+<div class="tags"><span class="tag">Cisco Packet Tracer</span><span class="tag">Adressage IP</span></div>
+<p><a href="#detail-reseau">Voir le détail →</a></p>
+</div>
+<div class="card">
+<div class="thumb">🔎</div>
+<span class="badge">En formation</span>
+<h3>Veille technologique</h3>
+<p class="muted">2026</p>
+<p>Mise en place d'une veille sur la cybersécurité, l'IA et la virtualisation.</p>
+<div class="tags"><span class="tag">Google Alertes</span><span class="tag">Pearltrees</span></div>
+<p><a href="#detail-veille">Voir le détail →</a></p>
+</div>
+<div class="card soon">
+<div class="thumb">🛠️</div>
+<span class="badge">À venir</span>
+<h3>Atelier de professionnalisation 2</h3>
+<p class="muted">2027</p>
+<p>Réalisation professionnelle menée dans le cadre du second atelier de professionnalisation.</p>
+</div>
+<div class="card soon">
+<div class="thumb">🏢</div>
+<span class="badge">À venir</span>
+<h3>Stage de première année</h3>
+<p class="muted">Mai – août 2027</p>
+<p>Stage de 4 à 5 semaines en systèmes et réseaux. Recherche en cours.</p>
+</div>
+</div>
+
+<div class="card detail" id="detail-reseau">
+<h3>Détail – Réseau local simulé sous Cisco Packet Tracer</h3>
+<p><strong>Cadre :</strong> projet scolaire, première année de BTS SIO option SISR, Lycée Monnet-Mermoz, Aurillac (2025).</p>
+<p><strong>Description :</strong> conception d'un réseau local simulé dans Cisco Packet Tracer : placement et câblage des équipements, attribution des adresses IP, puis tests de connectivité entre les postes. [À compléter : nombre de postes, équipements utilisés, plan d'adressage.]</p>
+<p><strong>Technologies :</strong> Cisco Packet Tracer, adressage IPv4.</p>
+<p><strong>Compétences du bloc 1 couvertes :</strong></p>
+<ul>
+<li>Mettre à disposition des utilisateurs un service informatique – Réaliser les tests d'intégration et d'acceptation d'un service</li>
+<li>Mettre à disposition des utilisateurs un service informatique – Déployer un service</li>
+</ul>
+</div>
+
+<div class="card detail" id="detail-veille">
+<h3>Détail – Veille technologique</h3>
+<p><strong>Cadre :</strong> compétence B1.6 du BTS SIO, réalisation individuelle en formation à distance (2026).</p>
+<p><strong>Description :</strong> veille sur trois thèmes : la cybersécurité en SISR, l'évolution de l'intelligence artificielle et son impact sur la spécialité, la virtualisation et le cloud souverain. Collecte automatisée par six Google Alertes hebdomadaires, sources institutionnelles (CERT-FR, ANSSI, CNIL) et presse spécialisée. Les articles retenus sont classés dans Pearltrees avec leur date, leur titre, un résumé et le lien. Alimentation chaque semaine, nettoyage chaque mois.</p>
+<p><strong>Production :</strong> <a href="https://www.pearltrees.com/kahed/veille/id108524862" target="_blank">ma collection Pearltrees « Veille »</a></p>
+<p><strong>Compétences du bloc 1 couvertes :</strong></p>
+<ul>
+<li>Organiser son développement professionnel – Mettre en œuvre des outils et stratégies de veille informationnelle</li>
+<li>Organiser son développement professionnel – Mettre en place son environnement d'apprentissage personnel</li>
+</ul>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="grid">
+<div class="card">
+<ul class="contact-list">
+<li>📍 Dzaoudzi, Mayotte</li>
+<li>📱 06 39 67 63 73</li>
+<li>✉️ <a href="mailto:kahedali@proton.me">kahedali@proton.me</a></li>
+<li>💼 <a href="https://www.linkedin.com/in/kahed-ali-689029422/" target="_blank">Mon profil LinkedIn</a></li>
+<li>💻 <a href="https://github.com/kahedali1" target="_blank">Mon GitHub</a></li>
+</ul>
+</div>
+<div class="card">
+<form action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="50183b30-6aac-4ef4-a21a-3b2e46a699c7">
+<input type="hidden" name="subject" value="Nouveau message depuis le portfolio">
+<input type="checkbox" name="botcheck" style="display:none">
+<input type="text" name="name" placeholder="Votre nom" required>
+<input type="email" name="email" placeholder="Votre adresse mail" required>
+<textarea name="message" placeholder="Votre message" required></textarea>
+<button class="btn" type="submit">Envoyer</button>
+</form>
+</div>
+</div>
+</section>
+
+<footer>© 2026 Kahed Ali – Portfolio BTS SIO SISR</footer>
+</body>
+</html>
